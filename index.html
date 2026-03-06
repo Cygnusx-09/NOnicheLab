@@ -9,11 +9,9 @@
         body {
             margin: 0;
             min-height: 100vh;
-            align-items: center;
-            padding-top: 5rem;
 
-
-
+            display: flex;
+            flex-direction: column;
         }
 
         .hero {
@@ -25,8 +23,9 @@
 
         .hero-content {
             text-align: left;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             padding: 1rem;
+            padding-top: 3rem;
         }
 
         .work {
@@ -56,7 +55,7 @@
             letter-spacing: 2px;
         }
 
-        a {
+        .work a {
             text-decoration: none;
             color: black;
         }
@@ -64,6 +63,11 @@
         p {
             margin: 0;
             padding: 0;
+        }
+
+        .footer {
+            margin-top: auto;
+            padding: 2rem 1rem;
         }
     </style>
 
@@ -74,10 +78,12 @@
 <body>
     <section class="hero">
 
-        <div class="hero-content">
-            <p>noniche-Lab is an idependent design studio <br>by random ahh stuednts in design college <br> to make
-                design fun
-                and accessible
+        <div class="hero-content" style="max-width: 35rem;">
+            <p>Picking one niche felt overwhelming.
+                So we didn't.
+                We fearlessly take up new things and get to the end with solution in hands. So if you have any problem
+                and you need 20 something y/o people to solve it. hmu We make whatever you want and whatever we like.
+                <br>check out some of our work below
 
             </p>
         </div>
@@ -91,6 +97,13 @@
             <p><a href="https://mental-dump-web-app-6psp.bolt.host/">Flush-it↗</a></p>
         </div>
     </section>
+    <section class="footer">
+        <p>noniche-Lab</p>
+        <p>2025</p>
+        <a href="https://www.instagram.com/no.nichelab/">instagram</a>
+    </section>
+
+
 
 </body>
 
