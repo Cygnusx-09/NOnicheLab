@@ -67,7 +67,7 @@
 
         .footer {
             margin-top: auto;
-            padding: 2rem;
+            padding: 1rem;
             display: flex;
             justify-content: space-between;
             align-items: flex-end;
@@ -80,9 +80,22 @@
 
         .footer img {
             width: 500px;
+            max-width: 100%;
             height: auto;
             padding: 0;
             margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .footer img {
+                width: 100%;
+                margin-top: 1rem;
+            }
         }
     </style>
 
